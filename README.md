@@ -1,16 +1,16 @@
-# fastapi_sqlalchemy_alembic
+# fastapi_gino
 
-This repo is used as a part of a tutorial to show how to use Fastapi and pydantic with Sqlalchemy, postgresql, Alembic(for migrations).
+This repo is used as a part of a tutorial to show how to use Fastapi with gino for handelling database asynchronously
 
 The full article is published on medium [here](https://medium.com/@ahmed.nafies/fastapi-with-sqlalchemy-postgresql-and-alembic-and-of-course-docker-f2b7411ee396)
 
 ## How to build
-
-    docker-compose build
+	
+	make install
 
 ## How to run
 
-    docker-compose up
+	make run
 
 and go to:
 
